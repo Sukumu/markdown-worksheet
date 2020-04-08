@@ -3,7 +3,7 @@ const webpack = require('webpack'); //to access built-in plugins
 const path = require('path');
 
 module.exports = {
-  entry: './path/file.js',
+  entry: './file.js',
   output: {
     filename: 'my-first-webpack.bundle.js',
     path: path.resolve(__dirname, 'dist')
